@@ -1,0 +1,17 @@
+/app/bootstrap*
+/app/cache/*
+/app/config/parameters.yml
+/app/SymfonyRequirements.php
+/app/logs/*
+/app/var/sessions/*
+/bin
+/vendor/*
+/web/bundles/*
+/web/css/*
+/web/img/default.png
+/web/media/cache/*
+/web/js/*
+/web/up/*
+/.idea
+*~
+*.swp
