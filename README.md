@@ -1,4 +1,4 @@
 fastfeed.github.io
 ==================
 
-not ready
+see [project page](http://fastfeed.github.io/)
