@@ -116,6 +116,4 @@ Reference Guide
 Cookbook
 --------
 
-.. toctree::
-    :maxdepth: 1
-    :numbered:
+Not ready yet :(
