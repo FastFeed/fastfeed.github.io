@@ -1,0 +1,975 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="generator" content="ApiGen 2.8.0">
+
+	<title>Class FastFeed\FastFeed</title>
+
+	<script type="text/javascript" src="resources/combined.js?394153670"></script>
+	<script type="text/javascript" src="elementlist.js?580076471"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360">
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Namespaces</h3>
+			<ul>
+				<li class="active"><a href="namespace-FastFeed.html">FastFeed<span></span></a>
+						<ul>
+				<li><a href="namespace-FastFeed.Aggregator.html">Aggregator</a>
+						</li>
+				<li><a href="namespace-FastFeed.Cache.html">Cache</a>
+						</li>
+				<li><a href="namespace-FastFeed.Exception.html">Exception</a>
+						</li>
+				<li><a href="namespace-FastFeed.Logger.html">Logger</a>
+						</li>
+				<li><a href="namespace-FastFeed.Parser.html">Parser</a>
+						</li>
+				<li><a href="namespace-FastFeed.Processor.html">Processor</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-PHP.html">PHP</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr>
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-FastFeed.Factory.html">Factory</a></li>
+				<li class="active"><a href="class-FastFeed.FastFeed.html">FastFeed</a></li>
+				<li><a href="class-FastFeed.Item.html">Item</a></li>
+			</ul>
+
+			<h3>Interfaces</h3>
+			<ul>
+				<li><a href="class-FastFeed.FastFeedInterface.html">FastFeedInterface</a></li>
+			</ul>
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="">
+		<input type="hidden" name="ie" value="UTF-8">
+		<input type="text" name="q" class="text">
+		<input type="submit" value="Search">
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="namespace-FastFeed.html" title="Summary of FastFeed"><span>Namespace</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class FastFeed</h1>
+
+
+	<div class="description">
+	
+<p>FastFeed</p>
+
+	</div>
+
+	<dl class="tree">
+		<dd style="padding-left:0px">
+<b><span>FastFeed\FastFeed</span></b>			
+			 implements 
+				<a href="class-FastFeed.FastFeedInterface.html"><span>FastFeed\FastFeedInterface</span></a>
+			
+			
+		</dd>
+	</dl>
+
+
+	<div>
+		<h4>Direct known subclasses</h4>
+			<a href="class-FastFeed.Cache.FastFeed.html">FastFeed\Cache\FastFeed</a>
+	</div>
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		<b>Namespace:</b> <a href="namespace-FastFeed.html">FastFeed</a><br>
+		
+
+		<b>Located at</b> <a href="source-class-FastFeed.FastFeed.html#20-289" title="Go to source code">src/FastFeed.php</a><br>
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code><a href="source-class-FastFeed.FastFeed.html#60-68" title="Go to source code">__construct</a>( <span>Guzzle\Http\ClientInterface <var>$guzzle</var></span>, <span>Psr\Log\LoggerInterface <var>$logger</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$guzzle</var></dt>
+					<dd><code>Guzzle\Http\ClientInterface</code><br>$guzzle</dd>
+					<dt><var>$logger</var></dt>
+					<dd><code>Psr\Log\LoggerInterface</code><br>$logger</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="addFeed" id="_addFeed">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_addFeed">#</a>
+		<code><a href="source-class-FastFeed.FastFeed.html#70-84" title="Go to source code">addFeed</a>( <span>string <var>$channel</var></span>, <span>string <var>$feed</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Add feed to channel</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Add feed to channel</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$channel</var></dt>
+					<dd><code>string</code><br>$channel</dd>
+					<dt><var>$feed</var></dt>
+					<dd><code>string</code><br>$feed</dd>
+				</dl></div>
+
+
+				<h4>Throws</h4>
+				<div class="list">
+					<code><code><a href="class-FastFeed.Exception.LogicException.html">FastFeed\Exception\LogicException</a></code></code><br>
+				</div>
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-FastFeed.FastFeedInterface.html#_addFeed">FastFeed\FastFeedInterface::addFeed()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="fetch" id="_fetch">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_fetch">#</a>
+		<code><a href="source-class-FastFeed.FastFeed.html#86-105" title="Go to source code">fetch</a>( <span>string <var>$channel</var> = <span class="php-quote">'default'</span></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$channel</var></dt>
+					<dd><code>string</code><br>$channel</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br>
+				</div>
+
+				<h4>Throws</h4>
+				<div class="list">
+					<code><code><a href="class-FastFeed.Exception.LogicException.html">FastFeed\Exception\LogicException</a></code></code><br>
+				</div>
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-FastFeed.FastFeedInterface.html#_fetch">FastFeed\FastFeedInterface::fetch()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getFeed" id="_getFeed">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getFeed">#</a>
+		<code><a href="source-class-FastFeed.FastFeed.html#107-122" title="Go to source code">getFeed</a>( <span>string <var>$channel</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Retrieve a channel</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Retrieve a channel</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$channel</var></dt>
+					<dd><code>string</code><br>$channel</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>
+				</div>
+
+				<h4>Throws</h4>
+				<div class="list">
+					<code><code><a href="class-FastFeed.Exception.LogicException.html">FastFeed\Exception\LogicException</a></code></code><br>
+				</div>
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-FastFeed.FastFeedInterface.html#_getFeed">FastFeed\FastFeedInterface::getFeed()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="popParser" id="_popParser">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-FastFeed.Parser.ParserInterface.html">FastFeed\Parser\ParserInterface</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_popParser">#</a>
+		<code><a href="source-class-FastFeed.FastFeed.html#124-135" title="Go to source code">popParser</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-FastFeed.Parser.ParserInterface.html">FastFeed\Parser\ParserInterface</a></code></code><br>
+				</div>
+
+				<h4>Throws</h4>
+				<div class="list">
+					<code><code><a href="class-FastFeed.Exception.LogicException.html">FastFeed\Exception\LogicException</a></code></code><br>
+				</div>
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-FastFeed.FastFeedInterface.html#_popParser">FastFeed\FastFeedInterface::popParser()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="pushParser" id="_pushParser">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_pushParser">#</a>
+		<code><a href="source-class-FastFeed.FastFeed.html#137-143" title="Go to source code">pushParser</a>( <span><code><a href="class-FastFeed.Parser.ParserInterface.html">FastFeed\Parser\ParserInterface</a></code> <var>$parser</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$parser</var></dt>
+					<dd><code><code><a href="class-FastFeed.Parser.ParserInterface.html">FastFeed\Parser\ParserInterface</a></code></code><br>$parser</dd>
+				</dl></div>
+
+
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-FastFeed.FastFeedInterface.html#_pushParser">FastFeed\FastFeedInterface::pushParser()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="popProcessor" id="_popProcessor">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-FastFeed.Processor.ProcessorInterface.html">FastFeed\Processor\ProcessorInterface</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_popProcessor">#</a>
+		<code><a href="source-class-FastFeed.FastFeed.html#145-156" title="Go to source code">popProcessor</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-FastFeed.Processor.ProcessorInterface.html">FastFeed\Processor\ProcessorInterface</a></code></code><br>
+				</div>
+
+				<h4>Throws</h4>
+				<div class="list">
+					<code><code><a href="class-FastFeed.Exception.LogicException.html">FastFeed\Exception\LogicException</a></code></code><br>
+				</div>
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-FastFeed.FastFeedInterface.html#_popProcessor">FastFeed\FastFeedInterface::popProcessor()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="pushProcessor" id="_pushProcessor">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_pushProcessor">#</a>
+		<code><a href="source-class-FastFeed.FastFeed.html#158-164" title="Go to source code">pushProcessor</a>( <span><code><a href="class-FastFeed.Processor.ProcessorInterface.html">FastFeed\Processor\ProcessorInterface</a></code> <var>$processor</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$processor</var></dt>
+					<dd><code><code><a href="class-FastFeed.Processor.ProcessorInterface.html">FastFeed\Processor\ProcessorInterface</a></code></code><br>$processor</dd>
+				</dl></div>
+
+
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-FastFeed.FastFeedInterface.html#_pushProcessor">FastFeed\FastFeedInterface::pushProcessor()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getFeeds" id="_getFeeds">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getFeeds">#</a>
+		<code><a href="source-class-FastFeed.FastFeed.html#166-174" title="Go to source code">getFeeds</a>( )</code>
+
+		<div class="description short">
+			
+<p>Retrieve all channels</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Retrieve all channels</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br>
+				</div>
+
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-FastFeed.FastFeedInterface.html#_getFeeds">FastFeed\FastFeedInterface::getFeeds()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setHttpClient" id="_setHttpClient">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setHttpClient">#</a>
+		<code><a href="source-class-FastFeed.FastFeed.html#176-184" title="Go to source code">setHttpClient</a>( <span>Guzzle\Http\ClientInterface <var>$guzzle</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set Guzzle</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set Guzzle</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$guzzle</var></dt>
+					<dd><code>Guzzle\Http\ClientInterface</code><br>$guzzle</dd>
+				</dl></div>
+
+
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-FastFeed.FastFeedInterface.html#_setHttpClient">FastFeed\FastFeedInterface::setHttpClient()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setLogger" id="_setLogger">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setLogger">#</a>
+		<code><a href="source-class-FastFeed.FastFeed.html#186-192" title="Go to source code">setLogger</a>( <span>Psr\Log\LoggerInterface <var>$logger</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$logger</var></dt>
+					<dd><code>Psr\Log\LoggerInterface</code><br>$logger</dd>
+				</dl></div>
+
+
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-FastFeed.FastFeedInterface.html#_setLogger">FastFeed\FastFeedInterface::setLogger()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setFeed" id="_setFeed">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setFeed">#</a>
+		<code><a href="source-class-FastFeed.FastFeed.html#194-209" title="Go to source code">setFeed</a>( <span>string <var>$channel</var></span>, <span>string <var>$feed</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set a channel</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set a channel</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$channel</var></dt>
+					<dd><code>string</code><br>$channel</dd>
+					<dt><var>$feed</var></dt>
+					<dd><code>string</code><br>$feed</dd>
+				</dl></div>
+
+
+				<h4>Throws</h4>
+				<div class="list">
+					<code><code><a href="class-FastFeed.Exception.LogicException.html">FastFeed\Exception\LogicException</a></code></code><br>
+				</div>
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-FastFeed.FastFeedInterface.html#_setFeed">FastFeed\FastFeedInterface::setFeed()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="get" id="_get">
+
+		<td class="attributes"><code>
+			 protected 
+			Guzzle\Http\EntityBodyInterface|string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_get">#</a>
+		<code><a href="source-class-FastFeed.FastFeed.html#211-235" title="Go to source code">get</a>( <span>mixed <var>$url</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Retrieve content from a resource</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Retrieve content from a resource</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$url</var></dt>
+					<dd><code>mixed</code><br>$url</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>Guzzle\Http\EntityBodyInterface|string</code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="retrieve" id="_retrieve">
+
+		<td class="attributes"><code>
+			 protected 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_retrieve">#</a>
+		<code><a href="source-class-FastFeed.FastFeed.html#237-255" title="Go to source code">retrieve</a>( <span>mixed <var>$channel</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$channel</var></dt>
+					<dd><code>mixed</code><br>$channel</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="parse" id="_parse">
+
+		<td class="attributes"><code>
+			 protected 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_parse">#</a>
+		<code><a href="source-class-FastFeed.FastFeed.html#257-277" title="Go to source code">parse</a>( <span>mixed <var>$content</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$content</var></dt>
+					<dd><code>mixed</code><br>$content</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="log" id="_log">
+
+		<td class="attributes"><code>
+			 protected 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_log">#</a>
+		<code><a href="source-class-FastFeed.FastFeed.html#279-288" title="Go to source code">log</a>( <span>mixed <var>$message</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$message</var></dt>
+					<dd><code>mixed</code><br>$message</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+	<table class="summary" id="constants">
+	<caption>Constants summary</caption>
+	<tr data-order="VERSION" id="VERSION">
+
+		<td class="attributes"><code>string</code></td>
+		<td class="name"><code>
+				<a href="source-class-FastFeed.FastFeed.html#25-28" title="Go to source code"><b>VERSION</b></a>
+		</code></td>
+		<td class="value"><code><span class="php-quote">'0.1'</span></code></td>
+		<td class="description"><div>
+			<a href="#VERSION" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+					<h4>Const</h4>
+					<div class="list">
+							VERSION<br>
+					</div>
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="USER_AGENT" id="USER_AGENT">
+
+		<td class="attributes"><code>string</code></td>
+		<td class="name"><code>
+				<a href="source-class-FastFeed.FastFeed.html#30-33" title="Go to source code"><b>USER_AGENT</b></a>
+		</code></td>
+		<td class="value"><code><span class="php-quote">'FastFeed/FastFeed'</span></code></td>
+		<td class="description"><div>
+			<a href="#USER_AGENT" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+					<h4>Const</h4>
+					<div class="list">
+							USER_AGENT<br>
+					</div>
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="http" id="$http">
+		<td class="attributes"><code>
+			protected  
+			ClientInterface;
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-FastFeed.FastFeed.html#35-38" title="Go to source code"><var>$http</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$http" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="logger" id="$logger">
+		<td class="attributes"><code>
+			protected  
+			Psr\Log\LoggerInterface
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-FastFeed.FastFeed.html#40-43" title="Go to source code"><var>$logger</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$logger" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="parsers" id="$parsers">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-FastFeed.FastFeed.html#45-48" title="Go to source code"><var>$parsers</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$parsers" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="processors" id="$processors">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-FastFeed.FastFeed.html#50-53" title="Go to source code"><var>$processors</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$processors" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="feeds" id="$feeds">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-FastFeed.FastFeed.html#55-58" title="Go to source code"><var>$feeds</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$feeds" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		 API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

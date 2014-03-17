@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="generator" content="ApiGen 2.8.0">
+
+	<title>Class FastFeed\Parser\AbstractDomParser</title>
+
+	<script type="text/javascript" src="resources/combined.js?394153670"></script>
+	<script type="text/javascript" src="elementlist.js?580076471"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360">
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Namespaces</h3>
+			<ul>
+				<li class="active"><a href="namespace-FastFeed.html">FastFeed<span></span></a>
+						<ul>
+				<li><a href="namespace-FastFeed.Aggregator.html">Aggregator</a>
+						</li>
+				<li><a href="namespace-FastFeed.Cache.html">Cache</a>
+						</li>
+				<li><a href="namespace-FastFeed.Exception.html">Exception</a>
+						</li>
+				<li><a href="namespace-FastFeed.Logger.html">Logger</a>
+						</li>
+				<li class="active"><a href="namespace-FastFeed.Parser.html">Parser</a>
+						</li>
+				<li><a href="namespace-FastFeed.Processor.html">Processor</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-PHP.html">PHP</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr>
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li class="active"><a href="class-FastFeed.Parser.AbstractDomParser.html">AbstractDomParser</a></li>
+				<li><a href="class-FastFeed.Parser.AbstractParser.html">AbstractParser</a></li>
+				<li><a href="class-FastFeed.Parser.AtomParser.html">AtomParser</a></li>
+				<li><a href="class-FastFeed.Parser.RSSParser.html">RSSParser</a></li>
+			</ul>
+
+			<h3>Interfaces</h3>
+			<ul>
+				<li><a href="class-FastFeed.Parser.ParserInterface.html">ParserInterface</a></li>
+			</ul>
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="">
+		<input type="hidden" name="ie" value="UTF-8">
+		<input type="text" name="q" class="text">
+		<input type="submit" value="Search">
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="namespace-FastFeed.Parser.html" title="Summary of FastFeed\Parser"><span>Namespace</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class AbstractDomParser</h1>
+
+
+	<div class="description">
+	
+<p>AbstractDomParser</p>
+
+	</div>
+
+
+
+	<div>
+		<h4>Direct known subclasses</h4>
+			<a href="class-FastFeed.Aggregator.AbstractAggregator.html">FastFeed\Aggregator\AbstractAggregator</a>, 
+			<a href="class-FastFeed.Parser.AbstractParser.html">FastFeed\Parser\AbstractParser</a>
+	</div>
+
+	<div>
+		<h4>Indirect known subclasses</h4>
+			<a href="class-FastFeed.Aggregator.RSSContentAggregator.html">FastFeed\Aggregator\RSSContentAggregator</a>, 
+			<a href="class-FastFeed.Parser.AtomParser.html">FastFeed\Parser\AtomParser</a>, 
+			<a href="class-FastFeed.Parser.RSSParser.html">FastFeed\Parser\RSSParser</a>
+	</div>
+
+
+
+
+
+	<div class="info">
+		<b>Abstract</b><br>
+		
+		<b>Namespace:</b> <a href="namespace-FastFeed.html">FastFeed</a>\<a href="namespace-FastFeed.Parser.html">Parser</a><br>
+		
+
+		<b>Located at</b> <a href="source-class-FastFeed.Parser.AbstractDomParser.html#15-148" title="Go to source code">src/Parser/AbstractDomParser.php</a><br>
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="createDocumentFromXML" id="_createDocumentFromXML">
+
+		<td class="attributes"><code>
+			 protected 
+			<code><a href="class-DOMDocument.html">DOMDocument</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_createDocumentFromXML">#</a>
+		<code><a href="source-class-FastFeed.Parser.AbstractDomParser.html#21-38" title="Go to source code">createDocumentFromXML</a>( <span>mixed <var>$content</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$content</var></dt>
+					<dd><code>mixed</code><br>$content</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-DOMDocument.html">DOMDocument</a></code></code><br>
+				</div>
+
+				<h4>Throws</h4>
+				<div class="list">
+					<code><code><a href="class-FastFeed.Exception.RuntimeException.html">FastFeed\Exception\RuntimeException</a></code></code><br>
+				</div>
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="createDocumentFromHTML" id="_createDocumentFromHTML">
+
+		<td class="attributes"><code>
+			 protected 
+			<code><a href="class-DOMDocument.html">DOMDocument</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_createDocumentFromHTML">#</a>
+		<code><a href="source-class-FastFeed.Parser.AbstractDomParser.html#40-57" title="Go to source code">createDocumentFromHTML</a>( <span>mixed <var>$content</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$content</var></dt>
+					<dd><code>mixed</code><br>$content</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-DOMDocument.html">DOMDocument</a></code></code><br>
+				</div>
+
+				<h4>Throws</h4>
+				<div class="list">
+					<code><code><a href="class-FastFeed.Exception.RuntimeException.html">FastFeed\Exception\RuntimeException</a></code></code><br>
+				</div>
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getNodeValueByTagName" id="_getNodeValueByTagName">
+
+		<td class="attributes"><code>
+			 protected 
+			boolean|string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getNodeValueByTagName">#</a>
+		<code><a href="source-class-FastFeed.Parser.AbstractDomParser.html#59-79" title="Go to source code">getNodeValueByTagName</a>( <span><code><a href="class-DOMElement.html">DOMElement</a></code> <var>$node</var></span>, <span>mixed <var>$tagName</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$node</var></dt>
+					<dd><code><code><a href="class-DOMElement.html">DOMElement</a></code></code><br>$node</dd>
+					<dt><var>$tagName</var></dt>
+					<dd><code>mixed</code><br>$tagName</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean|string</code><br>
+				</div>
+
+				<h4>Throws</h4>
+				<div class="list">
+					<code><code><a href="class-FastFeed.Exception.RuntimeException.html">FastFeed\Exception\RuntimeException</a></code></code><br>
+				</div>
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getNodeValueByTagNameNS" id="_getNodeValueByTagNameNS">
+
+		<td class="attributes"><code>
+			 protected 
+			boolean|string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getNodeValueByTagNameNS">#</a>
+		<code><a href="source-class-FastFeed.Parser.AbstractDomParser.html#81-102" title="Go to source code">getNodeValueByTagNameNS</a>( <span><code><a href="class-DOMElement.html">DOMElement</a></code> <var>$node</var></span>, <span>mixed <var>$namespace</var></span>, <span>mixed <var>$tagName</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$node</var></dt>
+					<dd><code><code><a href="class-DOMElement.html">DOMElement</a></code></code><br>$node</dd>
+					<dt><var>$namespace</var></dt>
+					<dd><code>mixed</code><br>$namespace</dd>
+					<dt><var>$tagName</var></dt>
+					<dd><code>mixed</code><br>$tagName</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean|string</code><br>
+				</div>
+
+				<h4>Throws</h4>
+				<div class="list">
+					<code><code><a href="class-FastFeed.Exception.RuntimeException.html">FastFeed\Exception\RuntimeException</a></code></code><br>
+				</div>
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getNodeValuesByTagName" id="_getNodeValuesByTagName">
+
+		<td class="attributes"><code>
+			 protected 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getNodeValuesByTagName">#</a>
+		<code><a href="source-class-FastFeed.Parser.AbstractDomParser.html#104-124" title="Go to source code">getNodeValuesByTagName</a>( <span><code><a href="class-DOMElement.html">DOMElement</a></code> <var>$node</var></span>, <span>mixed <var>$tagName</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$node</var></dt>
+					<dd><code><code><a href="class-DOMElement.html">DOMElement</a></code></code><br>$node</dd>
+					<dt><var>$tagName</var></dt>
+					<dd><code>mixed</code><br>$tagName</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br>
+				</div>
+
+				<h4>Throws</h4>
+				<div class="list">
+					<code><code><a href="class-FastFeed.Exception.RuntimeException.html">FastFeed\Exception\RuntimeException</a></code></code><br>
+				</div>
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getNodePropertyByTagName" id="_getNodePropertyByTagName">
+
+		<td class="attributes"><code>
+			 protected 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getNodePropertyByTagName">#</a>
+		<code><a href="source-class-FastFeed.Parser.AbstractDomParser.html#126-147" title="Go to source code">getNodePropertyByTagName</a>( <span><code><a href="class-DOMElement.html">DOMElement</a></code> <var>$node</var></span>, <span>mixed <var>$tagName</var></span>, <span>mixed <var>$propertyName</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$node</var></dt>
+					<dd><code><code><a href="class-DOMElement.html">DOMElement</a></code></code><br>$node</dd>
+					<dt><var>$tagName</var></dt>
+					<dd><code>mixed</code><br>$tagName</dd>
+					<dt><var>$propertyName</var></dt>
+					<dd><code>mixed</code><br>$propertyName</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br>
+				</div>
+
+				<h4>Throws</h4>
+				<div class="list">
+					<code><code><a href="class-FastFeed.Exception.RuntimeException.html">FastFeed\Exception\RuntimeException</a></code></code><br>
+				</div>
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		 API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="generator" content="ApiGen 2.8.0">
+
+	<title>Class FastFeed\Aggregator\RSSContentAggregator</title>
+
+	<script type="text/javascript" src="resources/combined.js?394153670"></script>
+	<script type="text/javascript" src="elementlist.js?580076471"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360">
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Namespaces</h3>
+			<ul>
+				<li class="active"><a href="namespace-FastFeed.html">FastFeed<span></span></a>
+						<ul>
+				<li class="active"><a href="namespace-FastFeed.Aggregator.html">Aggregator</a>
+						</li>
+				<li><a href="namespace-FastFeed.Cache.html">Cache</a>
+						</li>
+				<li><a href="namespace-FastFeed.Exception.html">Exception</a>
+						</li>
+				<li><a href="namespace-FastFeed.Logger.html">Logger</a>
+						</li>
+				<li><a href="namespace-FastFeed.Parser.html">Parser</a>
+						</li>
+				<li><a href="namespace-FastFeed.Processor.html">Processor</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-PHP.html">PHP</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr>
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-FastFeed.Aggregator.AbstractAggregator.html">AbstractAggregator</a></li>
+				<li class="active"><a href="class-FastFeed.Aggregator.RSSContentAggregator.html">RSSContentAggregator</a></li>
+			</ul>
+
+			<h3>Interfaces</h3>
+			<ul>
+				<li><a href="class-FastFeed.Aggregator.AggregatorInterface.html">AggregatorInterface</a></li>
+			</ul>
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="">
+		<input type="hidden" name="ie" value="UTF-8">
+		<input type="text" name="q" class="text">
+		<input type="submit" value="Search">
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="namespace-FastFeed.Aggregator.html" title="Summary of FastFeed\Aggregator"><span>Namespace</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class RSSContentAggregator</h1>
+
+
+	<div class="description">
+	
+<p>RSSContentAggregator</p>
+
+<p>This Aggregator seem for a content:encoded field in item node and set as
+description</p>
+
+	</div>
+
+	<dl class="tree">
+		<dd style="padding-left:0px">
+			<a href="class-FastFeed.Parser.AbstractDomParser.html"><span>FastFeed\Parser\AbstractDomParser</span></a>
+			
+			
+			
+		</dd>
+		<dd style="padding-left:30px">
+			<img src="resources/inherit.png" alt="Extended by">
+			<a href="class-FastFeed.Aggregator.AbstractAggregator.html"><span>FastFeed\Aggregator\AbstractAggregator</span></a>
+			
+			
+			
+		</dd>
+		<dd style="padding-left:60px">
+			<img src="resources/inherit.png" alt="Extended by">
+<b><span>FastFeed\Aggregator\RSSContentAggregator</span></b>			
+			 implements 
+				<a href="class-FastFeed.Aggregator.AggregatorInterface.html"><span>FastFeed\Aggregator\AggregatorInterface</span></a>
+			
+			
+		</dd>
+	</dl>
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		<b>Namespace:</b> <a href="namespace-FastFeed.html">FastFeed</a>\<a href="namespace-FastFeed.Aggregator.html">Aggregator</a><br>
+		
+
+		<b>Located at</b> <a href="source-class-FastFeed.Aggregator.RSSContentAggregator.html#15-46" title="Go to source code">src/Aggregator/RSSContentAggregator.php</a><br>
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="process" id="_process">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_process">#</a>
+		<code><a href="source-class-FastFeed.Aggregator.RSSContentAggregator.html#22-31" title="Go to source code">process</a>( <span><code><a href="class-DOMElement.html">DOMElement</a></code> <var>$node</var></span>, <span><code><a href="class-FastFeed.Item.html">FastFeed\Item</a></code> <var>$item</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Execute the Aggregator</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Execute the Aggregator</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$node</var></dt>
+					<dd><code><code><a href="class-DOMElement.html">DOMElement</a></code></code><br>$node</dd>
+					<dt><var>$item</var></dt>
+					<dd><code><code><a href="class-FastFeed.Item.html">FastFeed\Item</a></code></code><br>$item</dd>
+				</dl></div>
+
+
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-FastFeed.Aggregator.AggregatorInterface.html#_process">FastFeed\Aggregator\AggregatorInterface::process()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setContent" id="_setContent">
+
+		<td class="attributes"><code>
+			 protected 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setContent">#</a>
+		<code><a href="source-class-FastFeed.Aggregator.RSSContentAggregator.html#33-45" title="Go to source code">setContent</a>( <span><code><a href="class-DOMElement.html">DOMElement</a></code> <var>$node</var></span>, <span><code><a href="class-FastFeed.Item.html">FastFeed\Item</a></code> <var>$item</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$node</var></dt>
+					<dd><code><code><a href="class-DOMElement.html">DOMElement</a></code></code><br>$node</dd>
+					<dt><var>$item</var></dt>
+					<dd><code><code><a href="class-FastFeed.Item.html">FastFeed\Item</a></code></code><br>$item</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+	<table class="summary inherited">
+	<caption>Methods inherited from <a href="class-FastFeed.Parser.AbstractDomParser.html#methods">FastFeed\Parser\AbstractDomParser</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-FastFeed.Parser.AbstractDomParser.html#_createDocumentFromHTML">createDocumentFromHTML()</a>, 
+			<a href="class-FastFeed.Parser.AbstractDomParser.html#_createDocumentFromXML">createDocumentFromXML()</a>, 
+			<a href="class-FastFeed.Parser.AbstractDomParser.html#_getNodePropertyByTagName">getNodePropertyByTagName()</a>, 
+			<a href="class-FastFeed.Parser.AbstractDomParser.html#_getNodeValueByTagName">getNodeValueByTagName()</a>, 
+			<a href="class-FastFeed.Parser.AbstractDomParser.html#_getNodeValueByTagNameNS">getNodeValueByTagNameNS()</a>, 
+			<a href="class-FastFeed.Parser.AbstractDomParser.html#_getNodeValuesByTagName">getNodeValuesByTagName()</a>
+		</code></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		 API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>
